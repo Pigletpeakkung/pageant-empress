@@ -1,0 +1,710 @@
+{
+  "events": [
+    {
+      "id": "event-001",
+      "title": "Miss Universe 2024 Grand Finale",
+      "slug": "miss-universe-2024-finale",
+      "description": "The most anticipated beauty pageant finale of the year featuring 90+ contestants competing for the prestigious Miss Universe crown in a spectacular live broadcast.",
+      "longDescription": "Join millions of viewers worldwide for the culmination of months of preparation as contestants from over 90 countries compete in the final round of Miss Universe 2024. The evening will feature the national costume competition, evening gown segment, and final question round before the crowning of the new Miss Universe.",
+      "date": "2024-02-15",
+      "dateFormatted": "February 15, 2024",
+      "time": "20:00",
+      "timeFormatted": "8:00 PM EST",
+      "timezone": "EST",
+      "endDate": "2024-02-15",
+      "endTime": "23:00",
+      "duration": "3 hours",
+      "venue": {
+        "name": "Arena CDMX",
+        "address": "Av. de las Granjas 800, Santa Bárbara, Azcapotzalco, 02230 Ciudad de México, CDMX, Mexico",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "capacity": 22300,
+        "coordinates": {
+          "lat": 19.4908,
+          "lng": -99.1736
+        }
+      },
+      "image": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=800&h=600&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop",
+      "category": "Competition",
+      "type": "Grand Finale",
+      "status": "upcoming",
+      "priority": 1,
+      "featured": true,
+      "ticketsAvailable": false,
+      "liveStream": {
+        "available": true,
+        "platforms": ["YouTube", "Official Website", "TV Broadcast"],
+        "url": "https://missuniverse.com/live",
+        "free": true
+      },
+      "hosts": [
+        {
+          "name": "Steve Harvey",
+          "role": "Main Host",
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face"
+        },
+        {
+          "name": "Jeannie Mai",
+          "role": "Co-Host", 
+          "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face"
+        }
+      ],
+      "judges": [
+        {
+          "name": "Harnaaz Sandhu",
+          "role": "Miss Universe 2021",
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b6332-2016-06-21-?w=100&h=100&fit=crop&crop=face"
+        },
+        {
+          "name": "Catriona Gray",
+          "role": "Miss Universe 2018",
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face"
+        }
+      ],
+      "segments": [
+        {
+          "name": "Opening Number",
+          "time": "20:00",
+          "duration": "15 minutes"
+        },
+        {
+          "name": "National Costume Competition",
+          "time": "20:15", 
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Evening Gown Competition",
+          "time": "21:00",
+          "duration": "60 minutes"
+        },
+        {
+          "name": "Final Question & Answer",
+          "time": "22:00",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Crowning Ceremony",
+          "time": "22:30",
+          "duration": "30 minutes"
+        }
+      ],
+      "tags": ["Miss Universe", "Finale", "Competition", "Live", "2024"],
+      "socialMedia": {
+        "hashtags": ["#MissUniverse2024", "#MissUniverse", "#ConfidentlyBeautiful"],
+        "instagram": "@missuniverse",
+        "twitter": "@missuniverse",
+        "tiktok": "@missuniverse"
+      },
+      "reminders": {
+        "enabled": true,
+        "options": ["1 day", "1 hour", "15 minutes"]
+      }
+    },
+    {
+      "id": "event-002",
+      "title": "Miss World 2024: Beauty with a Purpose Showcase",
+      "slug": "miss-world-2024-purpose-showcase",
+      "description": "An inspiring evening celebrating the humanitarian projects of Miss World contestants and their impact on global communities.",
+      "longDescription": "Experience the heart of Miss World as contestants present their Beauty with a Purpose projects, showcasing how they're making a real difference in addressing critical global issues including education, healthcare, environmental conservation, and women's empowerment.",
+      "date": "2024-02-20",
+      "dateFormatted": "February 20, 2024", 
+      "time": "19:00",
+      "timeFormatted": "7:00 PM GMT",
+      "timezone": "GMT",
+      "endDate": "2024-02-20",
+      "endTime": "22:00",
+      "duration": "3 hours",
+      "venue": {
+        "name": "ExCeL London",
+        "address": "1 Western Gateway, Royal Victoria Dock, London E16 1XL, UK",
+        "city": "London",
+        "country": "United Kingdom", 
+        "capacity": 15000,
+        "coordinates": {
+          "lat": 51.5081,
+          "lng": 0.0294
+        }
+      },
+      "image": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&h=600&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&h=300&fit=crop",
+      "category": "Social Impact",
+      "type": "Showcase Event",
+      "status": "upcoming",
+      "priority": 2,
+      "featured": true,
+      "ticketsAvailable": true,
+      "ticketPrice": {
+        "currency": "GBP",
+        "min": 45,
+        "max": 150,
+        "url": "https://missworld.com/tickets"
+      },
+      "liveStream": {
+        "available": true,
+        "platforms": ["Miss World Official", "YouTube"],
+        "url": "https://missworld.com/live",
+        "free": false,
+        "price": 15
+      },
+      "hosts": [
+        {
+          "name": "Julia Morley",
+          "role": "Miss World CEO",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+        }
+      ],
+      "specialGuests": [
+        {
+          "name": "Priyanka Chopra",
+          "role": "Former Miss World & Global Ambassador",
+          "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&crop=face"
+        }
+      ],
+      "segments": [
+        {
+          "name": "Welcome & Introduction",
+          "time": "19:00",
+          "duration": "20 minutes"
+        },
+        {
+          "name": "Educational Projects Showcase",
+          "time": "19:20",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Environmental Conservation",
+          "time": "20:05",
+          "duration": "45 minutes"
+        },
+        {
+          "name": "Healthcare & Wellness",
+          "time": "20:50",
+          "duration": "35 minutes"
+        },
+        {
+          "name": "Awards & Recognition",
+          "time": "21:25",
+          "duration": "35 minutes"
+        }
+      ],
+      "tags": ["Miss World", "Beauty with Purpose", "Charity", "Social Impact", "2024"],
+      "socialMedia": {
+        "hashtags": ["#MissWorld2024", "#BeautyWithAPurpose", "#MissWorld"],
+        "instagram": "@missworld",
+        "twitter": "@missworld",
+        "facebook": "@OfficialMissWorld"
+      },
+      "reminders": {
+        "enabled": true,
+        "options": ["1 week", "1 day", "2 hours"]
+      }
+    },
+    {
+      "id": "event-003",
+      "title": "International Beauty Summit 2024",
+      "slug": "international-beauty-summit-2024",
+      "description": "A professional conference bringing together pageant directors, coaches, and industry experts to discuss the future of beauty competitions.",
+      "longDescription": "Join industry leaders, pageant directors, professional coaches, and beauty experts for comprehensive discussions on the evolution of beauty pageants, emerging trends, and the role of competitions in modern society. Features workshops, panel discussions, and networking opportunities.",
+      "date": "2024-03-05",
+      "dateFormatted": "March 5, 2024",
+      "time": "09:00",
+      "timeFormatted": "9:00 AM PST",
+      "timezone": "PST", 
+      "endDate": "2024-03-07",
+      "endTime": "17:00",
+      "duration": "3 days",
+      "venue": {
+        "name": "Los Angeles Convention Center",
+        "address": "1201 S Figueroa St, Los Angeles, CA 90015, USA",
+        "city": "Los Angeles",
+        "country": "United States",
+        "capacity": 5000,
+        "coordinates": {
+          "lat": 34.0407,
+          "lng": -118.2700
+        }
+      },
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+      "category": "Conference",
+      "type": "Professional Summit",
+      "status": "upcoming", 
+      "priority": 3,
+      "featured": false,
+      "ticketsAvailable": true,
+            "ticketPrice": {
+        "currency": "USD",
+        "min": 299,
+        "max": 799,
+        "url": "https://beautysummit2024.com/register"
+      },
+      "liveStream": {
+        "available": true,
+        "platforms": ["Conference Platform", "YouTube"],
+        "url": "https://beautysummit2024.com/virtual",
+        "free": false,
+        "price": 199
+      },
+      "speakers": [
+        {
+          "name": "Paula Shugart",
+          "role": "Former Miss Universe President",
+          "topic": "Evolution of Global Beauty Standards",
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b6332-2016-06-20-?w=100&h=100&fit=crop&crop=face"
+        },
+        {
+          "name": "Julia Morley",
+          "role": "Miss World CEO",
+          "topic": "Beauty with Purpose: 20 Years Later",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face"
+        },
+        {
+          "name": "Dr. Sarah Johnson",
+          "role": "Psychology of Competition Expert",
+          "topic": "Mental Health in Pageantry",
+          "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=100&h=100&fit=crop&crop=face"
+        }
+      ],
+      "workshops": [
+        {
+          "title": "Digital Marketing for Pageant Contestants",
+          "duration": "90 minutes",
+          "capacity": 50,
+          "price": 75
+        },
+        {
+          "title": "Sustainable Fashion in Pageantry",
+          "duration": "2 hours", 
+          "capacity": 40,
+          "price": 95
+        },
+        {
+          "title": "Public Speaking & Interview Techniques",
+          "duration": "3 hours",
+          "capacity": 30,
+          "price": 125
+        }
+      ],
+      "schedule": [
+        {
+          "day": "Day 1 - March 5",
+          "theme": "Industry Evolution",
+          "sessions": [
+            { "time": "09:00", "title": "Registration & Welcome" },
+            { "time": "10:00", "title": "Keynote: Future of Beauty Pageants" },
+            { "time": "11:30", "title": "Panel: Diversity & Inclusion" },
+            { "time": "14:00", "title": "Workshops Session 1" },
+            { "time": "16:00", "title": "Networking Reception" }
+          ]
+        },
+        {
+          "day": "Day 2 - March 6",
+          "theme": "Professional Development",
+          "sessions": [
+            { "time": "09:00", "title": "Morning Energizer" },
+            { "time": "09:30", "title": "Training & Coaching Best Practices" },
+            { "time": "11:00", "title": "Business of Pageantry" },
+            { "time": "14:00", "title": "Workshops Session 2" },
+            { "time": "16:00", "title": "Industry Awards" }
+          ]
+        },
+        {
+          "day": "Day 3 - March 7",
+          "theme": "Innovation & Technology",
+          "sessions": [
+            { "time": "09:00", "title": "Tech in Pageantry" },
+            { "time": "10:30", "title": "Social Media & Digital Presence" },
+            { "time": "12:00", "title": "Workshops Session 3" },
+            { "time": "15:00", "title": "Closing Ceremony" },
+            { "time": "16:00", "title": "Final Networking" }
+          ]
+        }
+      ],
+      "tags": ["Summit", "Conference", "Professional", "Industry", "Networking"],
+      "socialMedia": {
+        "hashtags": ["#BeautySummit2024", "#PageantIndustry", "#BeautyBusiness"],
+        "instagram": "@beautysummit",
+        "twitter": "@beautysummit2024",
+        "linkedin": "@international-beauty-summit"
+      },
+      "reminders": {
+        "enabled": true,
+        "options": ["1 month", "1 week", "1 day"]
+      }
+    },
+    {
+      "id": "event-004",
+      "title": "Miss International 2024 Cultural Night",
+      "slug": "miss-international-2024-cultural-night",
+      "description": "A spectacular celebration of global cultures featuring traditional performances, music, and culinary experiences from participating countries.",
+      "longDescription": "Immerse yourself in a vibrant celebration of world cultures as Miss International contestants showcase their heritage through traditional dances, musical performances, and cultural presentations. The evening includes a global food festival and cultural exhibitions.",
+      "date": "2024-03-15",
+      "dateFormatted": "March 15, 2024",
+      "time": "18:30",
+      "timeFormatted": "6:30 PM JST",
+      "timezone": "JST",
+      "endDate": "2024-03-15",
+      "endTime": "22:00",
+      "duration": "3.5 hours",
+      "venue": {
+        "name": "Tokyo International Forum",
+        "address": "3 Chome-5-1 Marunouchi, Chiyoda City, Tokyo 100-0005, Japan",
+        "city": "Tokyo",
+        "country": "Japan",
+        "capacity": 8000,
+        "coordinates": {
+          "lat": 35.6762,
+          "lng": 139.7633
+        }
+      },
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=300&fit=crop",
+      "category": "Cultural Event",
+      "type": "Cultural Showcase",
+      "status": "upcoming",
+      "priority": 4,
+      "featured": false,
+      "ticketsAvailable": true,
+      "ticketPrice": {
+        "currency": "JPY",
+        "min": 5000,
+        "max": 15000,
+        "url": "https://missinternational.org/tickets"
+      },
+      "liveStream": {
+        "available": true,
+        "platforms": ["Miss International Official", "Japanese Broadcasting"],
+        "url": "https://missinternational.org/live",
+        "free": true
+      },
+      "culturalPresentations": [
+        {
+          "country": "India",
+          "performance": "Classical Bharatanatyam Dance",
+          "duration": "8 minutes"
+        },
+        {
+          "country": "Mexico", 
+          "performance": "Folklorico Dance Showcase",
+          "duration": "10 minutes"
+        },
+        {
+          "country": "Nigeria",
+          "performance": "Traditional Igbo Cultural Dance",
+          "duration": "7 minutes"
+        },
+        {
+          "country": "Philippines",
+          "performance": "Tinikling Bamboo Dance",
+          "duration": "6 minutes"
+        }
+      ],
+      "foodFestival": {
+        "available": true,
+        "countries": 25,
+        "cuisineTypes": ["Asian", "European", "African", "American", "Middle Eastern"],
+        "duration": "Throughout event"
+      },
+      "tags": ["Miss International", "Cultural", "Performances", "Food", "Heritage"],
+      "socialMedia": {
+        "hashtags": ["#MissInternational2024", "#CulturalNight", "#WorldCultures"],
+        "instagram": "@missinternational_official",
+        "twitter": "@missinternationalofficial"
+      },
+      "reminders": {
+        "enabled": true,
+        "options": ["1 week", "2 days", "4 hours"]
+      }
+    },
+    {
+      "id": "event-005",
+      "title": "Pageant Fashion Week 2024",
+      "slug": "pageant-fashion-week-2024",
+      "description": "An exclusive fashion showcase featuring designs from top pageant couturiers and sustainable fashion innovations for the pageant industry.",
+      "longDescription": "The most anticipated fashion event in the pageant calendar, featuring runway shows from renowned designers who create stunning pageant gowns. This year's theme focuses on sustainable fashion and innovative materials, showcasing the future of pageant couture.",
+      "date": "2024-04-08", 
+      "dateFormatted": "April 8, 2024",
+      "time": "14:00",
+      "timeFormatted": "2:00 PM CET",
+      "timezone": "CET",
+      "endDate": "2024-04-12",
+      "endTime": "20:00",
+      "duration": "5 days",
+      "venue": {
+        "name": "Palais des Congrès",
+        "address": "2 Pl. de la Porte Maillot, 75017 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "capacity": 3500,
+        "coordinates": {
+          "lat": 48.8783,
+          "lng": 2.2838
+        }
+      },
+      "image": "https://images.unsplash.com/photo-1566479179817-c08ae7c2dbe6?w=800&h=600&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1566479179817-c08ae7c2dbe6?w=400&h=300&fit=crop",
+      "category": "Fashion",
+      "type": "Fashion Week",
+      "status": "upcoming",
+      "priority": 5,
+      "featured": false,
+      "ticketsAvailable": true,
+      "ticketPrice": {
+        "currency": "EUR",
+        "min": 85,
+        "max": 350,
+        "url": "https://pageantfashionweek.com/tickets"
+      },
+      "liveStream": {
+        "available": true,
+        "platforms": ["Fashion Channel", "YouTube", "Instagram Live"],
+        "url": "https://pageantfashionweek.com/live",
+        "free": false,
+        "price": 45
+      },
+      "designers": [
+        {
+          "name": "Sherri Hill",
+          "specialization": "Evening Gowns",
+          "showcase": "Sustainable Glamour Collection"
+        },
+        {
+          "name": "Jovani",
+          "specialization": "Competition Wear",
+          "showcase": "Eco-Luxury Line"
+        },
+        {
+          "name": "Mac Duggal",
+          "specialization": "Formal Wear",
+          "showcase": "Zero-Waste Couture"
+        }
+      ],
+      "runway Shows": [
+        {
+          "day": "April 8",
+          "theme": "Sustainable Evening Wear",
+          "showTime": "19:00"
+        },
+        {
+          "day": "April 9",
+          "theme": "Competition Ready Collection",
+          "showTime": "19:00"
+        },
+        {
+          "day": "April 10",
+          "theme": "Cultural Fusion Fashion",
+          "showTime": "19:00"
+        },
+        {
+          "day": "April 11",
+          "theme": "Innovation in Pageant Wear",
+          "showTime": "19:00"
+        },
+        {
+          "day": "April 12",
+          "theme": "Future of Fashion Awards",
+          "showTime": "18:00"
+        }
+      ],
+      "workshops": [
+        {
+          "title": "Sustainable Fashion Design",
+          "date": "April 9",
+          "time": "10:00",
+          "duration": "3 hours"
+        },
+        {
+          "title": "Pageant Styling Masterclass",
+          "date": "April 10", 
+          "time": "11:00",
+          "duration": "2 hours"
+        }
+      ],
+      "tags": ["Fashion Week", "Couture", "Sustainable Fashion", "Runway", "Design"],
+      "socialMedia": {
+        "hashtags": ["#PageantFashionWeek2024", "#SustainableFashion", "#PageantCouture"],
+        "instagram": "@pageantfashionweek",
+        "twitter": "@pageantfashion",
+        "tiktok": "@pageantfashionweek"
+      },
+      "reminders": {
+        "enabled": true,
+        "options": ["1 month", "1 week", "1 day"]
+      }
+    },
+    {
+      "id": "event-006",
+      "title": "Virtual Pageant Training Bootcamp",
+      "slug": "virtual-pageant-training-bootcamp",
+      "description": "An intensive online training program for aspiring pageant contestants featuring workshops on interview skills, stage presence, and personal development.",
+      "longDescription": "A comprehensive virtual training experience designed for aspiring pageant contestants worldwide. Led by former winners, professional coaches, and industry experts, this bootcamp covers all aspects of pageant preparation from interview techniques to stage presence.",
+      "date": "2024-04-20",
+      "dateFormatted": "April 20, 2024",
+      "time": "10:00",
+      "timeFormatted": "10:00 AM UTC",
+      "timezone": "UTC",
+      "endDate": "2024-04-21",
+      "endTime": "17:00", 
+      "duration": "2 days",
+      "venue": {
+        "name": "Virtual Platform",
+        "type": "Online Event",
+        "platform": "Zoom & Custom Learning Portal",
+        "capacity": 1000
+      },
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop",
+      "category": "Training",
+      "type": "Virtual Bootcamp",
+      "status": "upcoming",
+      "priority": 6,
+      "featured": false,
+      "ticketsAvailable": true,
+      "ticketPrice": {
+        "currency": "USD",
+        "min": 149,
+        "max": 299,
+        "url": "https://pageantbootcamp.com/register"
+      },
+      "includes": [
+        "Live interactive sessions",
+        "One-on-one coaching session",
+        "Digital workbook and resources",
+        "Recording access for 30 days",
+        "Certificate of completion",
+        "Private Facebook community access"
+      ],
+      "instructors": [
+        {
+          "name": "Harnaaz Sandhu",
+          "credentials": "Miss Universe 2021",
+          "specialization": "Interview Skills & Confidence"
+        },
+        {
+          "name": "Catriona Gray",
+          "credentials": "Miss Universe 2018",
+          "specialization": "Stage Presence & Performance"
+        },
+        {
+          "name": "Dr. Amanda Rodriguez",
+          "credentials": "Pageant Psychology Expert",
+          "specialization": "Mental Preparation & Wellness"
+        }
+      ],
+      "curriculum": [
+        {
+          "session": "Interview Mastery",
+          "duration": "2 hours",
+          "topics": ["Question types", "Storytelling techniques", "Handling pressure"]
+        },
+        {
+          "session": "Stage Presence & Walking",
+          "duration": "90 minutes", 
+          "topics": ["Runway techniques", "Posing", "Confidence building"]
+        },
+        {
+          "session": "Personal Branding",
+          "duration": "90 minutes",
+          "topics": ["Social media strategy", "Platform development", "Authentic storytelling"]
+        },
+        {
+          "session": "Fitness & Wellness",
+          "duration": "60 minutes",
+          "topics": ["Competition prep", "Mental health", "Nutrition basics"]
+        }
+      ],
+      "tags": ["Training", "Virtual", "Bootcamp", "Skills Development", "Online Learning"],
+      "socialMedia": {
+        "hashtags": ["#PageantBootcamp", "#PageantTraining", "#VirtualLearning"],
+        "instagram": "@pageantbootcamp",
+        "facebook": "@PageantTrainingBootcamp"
+      },
+      "reminders": {
+        "enabled": true,
+        "options": ["1 week", "3 days", "1 day", "1 hour"]
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "competition",
+      "name": "Competition",
+      "description": "Major pageant competitions and finals",
+      "color": "#8a2be2",
+      "count": 2
+    },
+    {
+      "id": "social-impact",
+      "name": "Social Impact",
+      "description": "Charity events and humanitarian showcases",
+      "color": "#00c9a7", 
+      "count": 1
+    },
+    {
+      "id": "conference",
+      "name": "Conference", 
+      "description": "Professional industry conferences and summits",
+      "color": "#6c5ce7",
+      "count": 1
+    },
+    {
+      "id": "cultural-event",
+      "name": "Cultural Event",
+      "description": "Cultural celebrations and heritage showcases",
+      "color": "#d4af37",
+      "count": 1
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion",
+      "description": "Fashion shows and style events",
+      "color": "#ff69b4",
+      "count": 1
+    },
+    {
+      "id": "training",
+      "name": "Training",
+      "description": "Educational workshops and skill development",
+      "color": "#ff6b35",
+      "count": 1
+    }
+  ],
+  "upcomingHighlights": [
+    {
+      "title": "Miss Universe 2024 Finale",
+      "date": "2024-02-15",
+      "daysUntil": 31,
+      "priority": 1
+    },
+    {
+      "title": "Beauty with Purpose Showcase", 
+      "date": "2024-02-20",
+      "daysUntil": 36,
+      "priority": 2
+    },
+    {
+      "title": "International Beauty Summit",
+      "date": "2024-03-05",
+      "daysUntil": 49,
+      "priority": 3
+    }
+  ],
+  "settings": {
+    "defaultTimezone": "UTC",
+    "reminderDefaults": ["1 day", "1 hour"],
+    "calendarIntegration": true,
+    "pushNotifications": true,
+    "emailReminders": true
+  },
+  "meta": {
+    "total": 6,
+    "upcoming": 6,
+    "featured": 2,
+    "virtual": 1,
+    "ticketed": 5,
+    "free": 1,
+    "lastUpdated": "2024-01-15T12:00:00Z"
+  }
+}
