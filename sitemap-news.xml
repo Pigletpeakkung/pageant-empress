@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+<url>
+  <loc>https://pageantempress.com/news/miss-universe-2024-breaking-records</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Pageant Empress</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2024-01-15T08:30:00Z</news:publication_date>
+    <news:title>Miss Universe 2024: Breaking Records with Historic Changes</news:title>
+    <news:keywords>Miss Universe, 2024, pageant, competition, records, breaking news</news:keywords>
+    <news:stock_tickers>BEAUTY, PAGEANT</news:stock_tickers>
+  </news:news>
+</url>
+
+<url>
+  <loc>https://pageantempress.com/news/sustainable-fashion-pageant-revolution</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Pageant Empress</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2024-01-14T14:20:00Z</news:publication_date>
+    <news:title>Sustainable Fashion: The New Revolution in Pageant World</news:title>
+    <news:keywords>sustainable fashion, pageant, eco-friendly, environment, revolution</news:keywords>
+  </news:news>
+</url>
+
+<url>
+  <loc>https://pageantempress.com/news/cultural-celebration-miss-international</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Pageant Empress</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2024-01-13T11:10:00Z</news:publication_date>
+    <news:title>Cultural Celebration: Miss International's Impact on Global Unity</news:title>
+    <news:keywords>Miss International, culture, global unity, diversity, celebration</news:keywords>
+  </news:news>
+</url>
+
+<url>
+  <loc>https://pageantempress.com/news/pageant-preparation-mental-health-guide</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Pageant Empress</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2024-01-12T16:45:00Z</news:publication_date>
+    <news:title>Mental Health in Pageantry: A Complete Guide for Contestants</news:title>
+    <news:keywords>mental health, pageant preparation, wellness, contestants, guide</news:keywords>
+  </news:news>
+</url>
+
+<url>
+  <loc>https://pageantempress.com/news/technology-pageant-judging-evolution</loc>
+  <news:news>
+    <news:publication>
+      <news:name>Pageant Empress</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2024-01-11T09:30:00Z</news:publication_date>
+    <news:title>Technology Revolution: How AI is Changing Pageant Judging</news:title>
+    <news:keywords>technology, AI, pageant judging, innovation, artificial intelligence</news:keywords>
+  </news:news>
+</url>
+
+</urlset>
