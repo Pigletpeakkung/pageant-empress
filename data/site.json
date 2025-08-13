@@ -1,0 +1,396 @@
+{
+  "site": {
+    "name": "Pageant Empress",
+    "tagline": "Where Every Crown Tells a Story",
+    "description": "The ultimate beauty pageant hub celebrating competitions, culture, and empowerment worldwide.",
+    "url": "https://pageantempress.com",
+    "logo": "/assets/icons/logo-512x512.png",
+    "favicon": "/assets/icons/favicon.ico",
+    "language": "en",
+    "locale": "en_US",
+    "timezone": "UTC",
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-15T12:00:00Z"
+  },
+  "owner": {
+    "name": "Thanattsitt S",
+    "email": "Thanattsitt.info@yahoo.co.uk",
+    "website": "https://pageantempress.com",
+    "github": "https://github.com/Pigletpeakkung",
+    "linkedin": "https://linkedin.com/in/thanattsitt-s",
+    "linktree": "https://linktr.ee/ThanttEzekiel"
+  },
+  "administrator": {
+    "name": "George G.",
+    "email": "Thepageantempress@gmail.com",
+    "website": "https://pageantempress.com",
+    "role": "Content Manager & Community Manager"
+  },
+  "seo": {
+    "title": "Pageant Empress - Ultimate Beauty Pageant Hub",
+    "description": "Discover the latest beauty pageant news, events, galleries, and videos. Your ultimate destination for Miss Universe, Miss World, and Miss International coverage.",
+    "keywords": [
+      "beauty pageant",
+      "miss universe",
+      "miss world",
+      "miss international",
+      "pageant news",
+      "beauty competition",
+      "cultural fashion",
+      "women empowerment",
+      "pageant training",
+      "beauty events"
+    ],
+    "author": "Pageant Empress Team",
+    "robots": "index, follow",
+    "canonical": "https://pageantempress.com",
+    "sitemap": "https://pageantempress.com/sitemap.xml"
+  },
+  "social": {
+    "facebook": {
+      "page": "https://facebook.com/pageantempress",
+      "appId": "your-facebook-app-id"
+    },
+    "twitter": {
+      "handle": "@pageantempress",
+      "site": "@pageantempress",
+      "creator": "@thanattsitts"
+    },
+    "instagram": {
+      "handle": "@pageantempress",
+      "url": "https://instagram.com/pageantempress"
+    },
+    "youtube": {
+      "channel": "https://youtube.com/@pageantempress",
+      "channelId": "UC_pageant_empress_channel_id"
+    },
+    "pinterest": {
+      "profile": "https://pinterest.com/pageantempress",
+      "verification": "your-pinterest-verification-code"
+    },
+    "tiktok": {
+      "handle": "@pageantempress",
+      "url": "https://tiktok.com/@pageantempress"
+    },
+    "linkedin": {
+      "company": "https://linkedin.com/company/pageant-empress"
+    }
+  },
+  "openGraph": {
+    "type": "website",
+    "title": "Pageant Empress - Ultimate Beauty Pageant Hub",
+    "description": "Discover the latest beauty pageant news, events, galleries, and videos from Miss Universe, Miss World, and Miss International.",
+    "image": "https://pageantempress.com/assets/images/og-image.jpg",
+    "imageAlt": "Pageant Empress - Beauty Pageant News and Events",
+    "url": "https://pageantempress.com",
+    "siteName": "Pageant Empress",
+    "locale": "en_US"
+  },
+  "twitterCard": {
+    "card": "summary_large_image",
+    "title": "Pageant Empress - Ultimate Beauty Pageant Hub",
+    "description": "Your ultimate destination for beauty pageant news, events, galleries, and educational content.",
+    "image": "https://pageantempress.com/assets/images/twitter-card.jpg",
+    "imageAlt": "Pageant Empress Platform Screenshot"
+  },
+  "navigation": {
+    "header": [
+      {
+        "label": "Home",
+        "url": "/",
+        "icon": "🏠",
+        "active": true
+      },
+      {
+        "label": "News",
+        "url": "/news",
+        "icon": "📰",
+        "badge": "NEW"
+      },
+      {
+        "label": "Videos",
+        "url": "/videos",
+        "icon": "🎥"
+      },
+      {
+        "label": "Gallery",
+        "url": "/gallery",
+        "icon": "📸"
+      },
+      {
+        "label": "Events",
+        "url": "/events",
+        "icon": "📅",
+        "badge": "LIVE"
+      },
+      {
+        "label": "About",
+        "url": "/about",
+        "icon": "ℹ️"
+      },
+      {
+        "label": "Contact",
+        "url": "/contact",
+        "icon": "📧"
+      }
+    ],
+    "footer": [
+      {
+        "section": "Pages",
+        "links": [
+          { "label": "Home", "url": "/" },
+          { "label": "About Us", "url": "/about" },
+          { "label": "Contact", "url": "/contact" },
+          { "label": "Sitemap", "url": "/sitemap.html" }
+        ]
+      },
+      {
+        "section": "Content",
+        "links": [
+          { "label": "Latest News", "url": "/news" },
+          { "label": "Video Gallery", "url": "/videos" },
+          { "label": "Photo Gallery", "url": "/gallery" },
+          { "label": "Events Calendar", "url": "/events" }
+        ]
+      },
+      {
+        "section": "Categories",
+        "links": [
+          { "label": "Competitions", "url": "/category/competitions" },
+          { "label": "Fashion", "url": "/category/fashion" },
+          { "label": "Culture", "url": "/category/culture" },
+          { "label": "Training", "url": "/category/training" }
+        ]
+      },
+      {
+        "section": "Legal",
+        "links": [
+          { "label": "Privacy Policy", "url": "/privacy-policy" },
+          { "label": "Terms of Service", "url": "/terms-of-service" },
+          { "label": "Cookie Policy", "url": "/cookie-policy" },
+          { "label": "Disclaimer", "url": "/disclaimer" }
+        ]
+      }
+    ]
+  },
+  "theme": {
+    "primaryColor": "#8a2be2",
+    "secondaryColor": "#ff69b4",
+    "accentColor": "#ffd700",
+    "backgroundColor": "#ffffff",
+    "textColor": "#333333",
+    "linkColor": "#8a2be2",
+    "borderColor": "#e0e0e0",
+    "successColor": "#28a745",
+    "warningColor": "#ffc107",
+    "errorColor": "#dc3545",
+    "infoColor": "#17a2b8",
+    "fonts": {
+      "heading": "Playfair Display, serif",
+      "body": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+      "code": "Monaco, Consolas, monospace"
+    }
+  },
+  "features": {
+    "pwa": {
+      "enabled": true,
+      "manifestPath": "/manifest.json",
+      "serviceWorkerPath": "/sw.js"
+    },
+    "analytics": {
+      "enabled": true,
+      "provider": "custom",
+      "trackingId": "your-analytics-id",
+      "cookieConsent": true
+    },
+    "search": {
+      "enabled": true,
+      "provider": "local",
+      "placeholder": "Search pageant news, events..."
+    },
+    "newsletter": {
+      "enabled": true,
+      "provider": "custom",
+      "endpoint": "/api/subscribe"
+    },
+    "comments": {
+      "enabled": false,
+      "provider": "none"
+    },
+    "sharing": {
+      "enabled": true,
+      "platforms": ["facebook", "twitter", "pinterest", "linkedin", "whatsapp"]
+    },
+    "notifications": {
+      "enabled": true,
+      "types": ["breaking-news", "live-events", "new-content"]
+    }
+  },
+  "performance": {
+    "lazyLoading": true,
+    "imageOptimization": true,
+    "minification": true,
+    "compression": true,
+    "caching": {
+      "strategy": "networkFirst",
+      "duration": 86400
+    },
+    "cdn": {
+      "enabled": false,
+      "provider": "none"
+    }
+  },
+  "security": {
+    "https": true,
+    "csp": {
+      "enabled": true,
+      "policy": "default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; connect-src 'self';"
+    },
+    "headers": {
+      "xFrameOptions": "SAMEORIGIN",
+      "xContentTypeOptions": "nosniff",
+      "xXSSProtection": "1; mode=block",
+      "referrerPolicy": "strict-origin-when-cross-origin"
+    }
+  },
+  "content": {
+    "categories": [
+      {
+        "id": "competitions",
+        "name": "Competitions",
+        "description": "Latest competition news and results",
+        "icon": "🏆",
+        "color": "#8a2be2"
+      },
+      {
+        "id": "fashion",
+        "name": "Fashion",
+        "description": "Pageant fashion and styling trends",
+        "icon": "👗",
+        "color": "#ff69b4"
+      },
+      {
+        "id": "culture",
+        "name": "Culture",
+        "description": "Cultural celebrations and heritage",
+        "icon": "🌍",
+        "color": "#ffd700"
+      },
+      {
+        "id": "training",
+        "name": "Training",
+        "description": "Pageant preparation and coaching",
+        "icon": "💪",
+        "color": "#28a745"
+      },
+      {
+        "id": "interviews",
+        "name": "Interviews",
+        "description": "Exclusive contestant interviews",
+        "icon": "🎤",
+        "color": "#17a2b8"
+      },
+      {
+        "id": "events",
+        "name": "Events",
+        "description": "Pageant events and ceremonies",
+        "icon": "🎭",
+        "color": "#dc3545"
+      }
+    ],
+    "tags": [
+      "Miss Universe", "Miss World", "Miss International",
+      "Beauty Pageant", "Competition", "Fashion", "Culture",
+      "Training", "Interviews", "Events", "Winners", "Contestants",
+      "Sustainable Fashion", "Empowerment", "Global Unity",
+      "Traditional Costumes", "Modern Pageantry", "Social Impact"
+    ]
+  },
+  "api": {
+    "version": "1.0",
+    "baseUrl": "https://api.pageantempress.com/v1",
+    "endpoints": {
+      "news": "/news",
+      "events": "/events",
+      "gallery": "/gallery",
+      "videos": "/videos",
+      "search": "/search",
+      "subscribe": "/subscribe"
+    },
+    "rateLimit": {
+      "requests": 100,
+      "window": 3600
+    }
+  },
+  "integration": {
+    "googleAnalytics": {
+      "enabled": false,
+      "trackingId": ""
+    },
+    "googleSearchConsole": {
+      "enabled": true,
+      "verificationCode": "your-gsc-verification-code"
+    },
+    "facebookPixel": {
+      "enabled": false,
+      "pixelId": ""
+    },
+    "mailchimp": {
+      "enabled": false,
+      "apiKey": "",
+      "listId": ""
+    },
+    "disqus": {
+      "enabled": false,
+      "shortname": ""
+    }
+  },
+  "deployment": {
+    "provider": "vercel",
+    "domain": "pageantempress.com",
+    "customDomains": [
+      "www.pageantempress.com"
+    ],
+    "environment": "production",
+    "buildCommand": "echo 'Static site ready ✅'",
+    "outputDirectory": ".",
+    "nodeVersion": "18.x"
+  },
+  "monitoring": {
+    "uptime": {
+      "enabled": true,
+      "provider": "custom"
+    },
+    "performance": {
+      "enabled": true,
+      "lighthouse": true,
+      "webVitals": true
+    },
+    "errors": {
+      "enabled": true,
+      "provider": "console"
+    }
+  },
+  "backup": {
+    "enabled": true,
+    "frequency": "daily",
+    "retention": 30,
+    "provider": "github"
+  },
+  "maintenance": {
+    "enabled": false,
+    "message": "We're making Pageant Empress even better! We'll be back shortly.",
+    "allowedIPs": []
+  },
+  "experimental": {
+    "features": [],
+    "flags": {}
+  },
+  "build": {
+    "timestamp": "2024-01-15T12:00:00Z",
+    "version": "1.0.0",
+    "commit": "b4b7fd0",
+    "branch": "main",
+    "environment": "production"
+  }
+}
