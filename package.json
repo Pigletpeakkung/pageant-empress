@@ -14,6 +14,8 @@
     "pageant",
     "beauty-pageant",
     "miss-universe",
+    "miss-world",
+    "progressive-web-app",
     "pwa",
     "vanilla-javascript"
   ],
@@ -23,6 +25,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Pigletpeakkung/pageant-empress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pigletpeakkung/pageant-empress/issues"
   },
   "devDependencies": {
     "live-server": "^1.2.2"
