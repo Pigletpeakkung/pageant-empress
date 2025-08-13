@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pageant Empress | Ultimate Beauty Pageant Hub</title>
+    <meta name="description" content="Your ultimate beauty pageant destination featuring Miss Universe, Miss World coverage, expert analysis, and exclusive content">
+    <meta name="keywords" content="beauty pageant, Miss Universe, Miss World, pageant news, beauty queens">
+    <meta name="author" content="Thanattsitt S - Creator Developer">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pageantempress.com/">
+    <meta property="og:title" content="Pageant Empress - Ultimate Beauty Pageant Hub">
+    <meta property="og:description" content="Expert pageant analysis, live coverage, and exclusive beauty queen content">
+    <meta property="og:image" content="https://pageantempress.com/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pageantempress.com/">
+    <meta property="twitter:title" content="Pageant Empress - Ultimate Beauty Pageant Hub">
+    <meta property="twitter:description" content="Expert pageant analysis, live coverage, and exclusive beauty queen content">
+    <meta property="twitter:image" content="https://pageantempress.com/assets/images/og-image.jpg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#8a2be2">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/js/app.js" as="script">
+    <link rel="preload" href="assets/css/main.css" as="style">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="crown-animation">
+                <div class="crown-jewel"></div>
+                <div class="crown-jewel"></div>
+                <div class="crown-jewel"></div>
+            </div>
+            <h2 class="loading-title">Pageant Empress</h2>
+            <div class="loading-progress">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loading-text">Loading your royal experience...</p>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-brand">
+                <img src="assets/images/logo.png" alt="Pageant Empress" class="nav-logo">
+                <span class="brand-text">Pageant Empress</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#news" class="nav-link">News</a></li>
+                <li class="nav-item"><a href="#videos" class="nav-link">Videos</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="#events" class="nav-link">Events</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Enhanced Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="hero-background">
+                <div class="hero-gradient"></div>
+                <div class="floating-elements"></div>
+                <canvas class="particle-canvas" id="particleCanvas"></canvas>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">👑</span>
+                    <span class="badge-text">Ultimate Pageant Destination</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line">Pageant</span>
+                    <span class="title-line title-emphasis">Empress</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Expert analysis, live coverage, and exclusive content from the world's most prestigious beauty pageants
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="127543">0</span>
+                        <span class="stat-label">Live Viewers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="94">0</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="1287">0</span>
+                        <span class="stat-label">Articles</span>
+                    </div>
+                </div>
+                
+                <div class="hero-actions">
+                    <a href="#news" class="btn btn-primary">
+                        <span class="btn-icon">✨</span>
+                        <span class="btn-text">Explore Now</span>
+                    </a>
+                    <a href="#videos" class="btn btn-secondary">
+                        <span class="btn-icon">🎥</span>
+                        <span class="btn-text">Watch Live</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-scroll-indicator">
+                <div class="scroll-icon"></div>
+                <span class="scroll-text">Scroll to explore</span>
+            </div>
+        </section>
+
+        <!-- News Ticker -->
+        <div class="news-ticker" id="newsTicker">
+            <div class="ticker-label">🚨 Breaking News</div>
+            <div class="ticker-content"></div>
+        </div>
+
+        <!-- Featured Carousel -->
+        <section class="section carousel-section">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Featured Coverage</h2>
+                    <p class="section-subtitle">Stay updated with the latest pageant highlights</p>
+                </header>
+                
+                <div class="featured-carousel" id="featuredCarousel">
+                    <div class="carousel-container">
+                        <div class="carousel-track" id="carouselTrack"></div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn carousel-prev" id="carouselPrev">‹</button>
+                        <div class="carousel-indicators" id="carouselIndicators"></div>
+                        <button class="carousel-btn carousel-next" id="carouselNext">›</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="section news-section" id="news">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">
+                        <span class="section-icon">📰</span>
+                        Latest News
+                    </h2>
+                    <p class="section-subtitle">Breaking stories from the pageant world</p>
+                </header>
+                
+                <div class="news-grid" id="newsGrid">
+                    <!-- News items will be loaded dynamically -->
+                </div>
+                
+                <div class="section-footer">
+                    <button class="btn btn-outline" id="loadMoreNews">Load More News</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Videos Section -->
+        <section class="section videos-section" id="videos">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">
+                        <span class="section-icon">🎥</span>
+                        Exclusive Videos
+                    </h2>
+                    <p class="section-subtitle">Behind-the-scenes content and live coverage</p>
+                </header>
+                
+                <div class="video-grid" id="videoGrid">
+                    <!-- Video items will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="section gallery-section" id="gallery">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">
+                        <span class="section-icon">📸</span>
+                        Photo Gallery
+                    </h2>
+                    <p class="section-subtitle">Stunning moments from pageant competitions</p>
+                </header>
+                
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Gallery items will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section class="section events-section" id="events">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">
+                        <span class="section-icon">📅</span>
+                        Upcoming Events
+                    </h2>
+                    <p class="section-subtitle">Don't miss these exciting pageant competitions</p>
+                </header>
+                
+                <div class="events-grid" id="eventsGrid">
+                    <!-- Event items will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About Pageant Empress</h2>
+                        <p class="about-description">
+                            Pageant Empress is your ultimate beauty pageant destination, providing comprehensive coverage, expert analysis, and exclusive content from Miss Universe, Miss World, and international beauty competitions worldwide.
+                        </p>
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <span class="feature-icon">📰</span>
+                                <span class="feature-text">Latest News & Analysis</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🎥</span>
+                                <span class="feature-text">Exclusive Video Content</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">👑</span>
+                                <span class="feature-text">Expert Commentary</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon">🌍</span>
+                                <span class="feature-text">Global Coverage</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/images/about-hero.jpg" alt="About Pageant Empress" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">👑 Pageant Empress</h3>
+                    <p class="footer-text">Your ultimate destination for beauty pageant coverage and exclusive content.</p>
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/@pageantempress" class="social-link" aria-label="YouTube">📺</a>
+                        <a href="https://www.instagram.com/pageantempress/" class="social-link" aria-label="Instagram">📸</a>
+                        <a href="https://www.tiktok.com/@pageantempress" class="social-link" aria-label="TikTok">🎬</a>
+                        <a href="mailto:Thepageantempress@gmail.com" class="social-link" aria-label="Email">✉️</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#news">Latest News</a></li>
+                        <li><a href="#videos">Video Content</a></li>
+                        <li><a href="#gallery">Photo Gallery</a></li>
+                        <li><a href="#events">Upcoming Events</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Administration</h4>
+                    <p class="admin-info">
+                        <strong>Admin:</strong> George G.<br>
+                        <a href="mailto:Thepageantempress@gmail.com">Thepageantempress@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="creator-credits">
+                    <p><strong>Created & Developed by Thanattsitt S</strong></p>
+                    <div class="creator-links">
+                        <a href="https://www.linkedin.com/in/thanattsitt-s" class="creator-link">💼 LinkedIn</a>
+                        <a href="https://paypal.me/@thanattsittS" class="creator-link">💰 Support</a>
+                        <a href="https://buymeacoffee.com/thanattsitts" class="creator-link">☕ Coffee</a>
+                        <a href="https://github.com/Pigletpeakkung" class="creator-link">💻 GitHub</a>
+                    </div>
+                    <p class="contact-info">📧 <a href="mailto:Thanattsitt.info@yahoo.co.uk">Thanattsitt.info@yahoo.co.uk</a></p>
+                </div>
+                
+                <div class="copyright">
+                    <p>&copy; 2024 Pageant Empress. All rights reserved. Built with 💖 for the pageant community.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <div class="fab-container" id="fabContainer">
+        <button class="fab-main" id="fabMain" aria-label="Quick actions">⚡</button>
+        <div class="fab-menu" id="fabMenu">
+            <button class="fab-item" data-action="chat" title="Live Chat">💬</button>
+            <button class="fab-item" data-action="share" title="Share">📤</button>
+            <button class="fab-item" data-action="top" title="Back to Top">⬆️</button>
+            <button class="fab-item" data-action="notifications" title="Notifications">🔔</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/components/carousel.js"></script>
+    <script src="assets/js/components/navigation.js"></script>
+    <script src="assets/js/components/hero.js"></script>
+    <script src="assets/js/components/counters.js"></script>
+    <script src="assets/js/utils/performance.js"></script>
+    <script src="assets/js/utils/analytics.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
