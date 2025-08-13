@@ -1,0 +1,100 @@
+# Robots.txt for Pageant Empress
+# Website: https://pageantempress.com
+# Last Updated: January 15, 2024
+
+# Allow all web crawlers to access the site
+User-agent: *
+Allow: /
+
+# Optimize crawling - disallow less important files
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.github/
+Disallow: /docs/
+Disallow: /.vscode/
+Disallow: /.idea/
+Disallow: /package*.json
+Disallow: /*.md$
+
+# Allow access to important assets for rich snippets
+Allow: /assets/images/
+Allow: /assets/icons/
+Allow: /manifest.json
+Allow: /sw.js
+
+# Special instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Social media bots (for rich cards)
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Pinterest bot for rich pins
+User-agent: Pinterest
+Allow: /
+
+# Archive bots
+User-agent: ia_archiver
+Allow: /
+
+# Block malicious bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Block excessive scrapers
+User-agent: wget
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+User-agent: Python-urllib
+Disallow: /
+
+# Sitemap locations
+Sitemap: https://pageantempress.com/sitemap.xml
+Sitemap: https://pageantempress.com/sitemap-news.xml
+Sitemap: https://pageantempress.com/sitemap-images.xml
+Sitemap: https://pageantempress.com/sitemap-videos.xml
+
+# Additional information
+# Host: https://pageantempress.com
+# Contact: Thepageantempress@gmail.com
+# Policy: This site promotes beauty pageant content and welcomes responsible indexing
