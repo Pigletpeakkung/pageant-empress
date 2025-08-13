@@ -1,56 +1,30 @@
 {
   "name": "pageant-empress",
   "version": "1.0.0",
-  "description": "Ultimate Beauty Pageant Hub - Professional website for pageant coverage and analysis",
+  "description": "👑 Modern Progressive Web App for beauty pageant enthusiasts",
   "main": "index.html",
   "scripts": {
-    "start": "npx serve -s . -l 3000",
-    "dev": "npx live-server --port=3000 --host=0.0.0.0",
-    "build": "npm run optimize && npm run compress",
-    "optimize": "npx imagemin assets/images/* --out-dir=assets/images/optimized",
-    "compress": "npx gzip-size-cli assets/css/*.css assets/js/*.js",
-    "test": "npx lighthouse http://localhost:3000 --output=json --output=html --output-path=./lighthouse-report",
-    "deploy": "npm run build && npx surge . pageantempress.surge.sh"
+    "start": "npx live-server --port=3000 --host=0.0.0.0 --open=/",
+    "dev": "npx live-server --port=3000 --host=0.0.0.0 --open=/",
+    "build": "echo 'Static site - no build required ✅'",
+    "test": "echo 'Tests not implemented yet'",
+    "deploy": "npx surge . --domain pageantempress.surge.sh"
   },
   "keywords": [
     "pageant",
     "beauty-pageant",
     "miss-universe",
-    "miss-world",
-    "beauty-queens",
-    "pageant-news",
-    "entertainment",
-    "fashion",
-    "beauty",
-    "competition"
+    "pwa",
+    "vanilla-javascript"
   ],
-  "author": {
-    "name": "Thanattsitt S",
-    "email": "Thanattsitt.info@yahoo.co.uk",
-    "url": "https://linktr.ee/ThanttEzekiel"
-  },
+  "author": "Thanattsitt S <Thanattsitt.info@yahoo.co.uk>",
   "license": "MIT",
   "homepage": "https://pageantempress.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/Pigletpeakkung/pageant-empress.git"
   },
-  "bugs": {
-    "url": "https://github.com/Pigletpeakkung/pageant-empress/issues",
-    "email": "Thepageantempress@gmail.com"
-  },
   "devDependencies": {
-    "live-server": "^1.2.2",
-    "lighthouse": "^10.4.0",
-    "imagemin": "^8.0.1",
-    "imagemin-webp": "^7.0.0",
-    "gzip-size-cli": "^5.1.0",
-    "surge": "^0.23.1"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie <= 11"
-  ]
+    "live-server": "^1.2.2"
+  }
 }
