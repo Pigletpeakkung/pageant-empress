@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+<url>
+  <loc>https://pageantempress.com/videos</loc>
+  
+  <video:video>
+    <video:thumbnail_loc>https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&h=300&fit=crop</video:thumbnail_loc>
+    <video:title>Miss Universe 2024: Competition Highlights</video:title>
+    <video:description>Experience the most spectacular moments from Miss Universe 2024 competition featuring contestants from 90+ countries competing for the prestigious crown.</video:description>
+    <video:content_loc>https://www.youtube.com/watch?v=dQw4w9WgXcQ</video:content_loc>
+    <video:duration>1200</video:duration>
+    <video:publication_date>2024-01-14T15:45:00+00:00</video:publication_date>
+    <video:tag>Miss Universe</video:tag>
+    <video:tag>2024</video:tag>
+    <video:tag>Competition</video:tag>
+    <video:tag>Highlights</video:tag>
+    <video:category>Entertainment</video:category>
+    <video:family_friendly>yes</video:family_friendly>
+    <video:live>no</video:live>
+  </video:video>
+  
+  <video:video>
+    <video:thumbnail_loc>https://images.unsplash.com/photo-1566479179817-c08ae7c2dbe6?w=400&h=300&fit=crop</video:thumbnail_loc>
+    <video:title>Cultural Fashion Showcase: Traditional Meets Modern</video:title>
+    <video:description>A stunning display of cultural fashion from around the world, showcasing how traditional designs are being reimagined for modern pageantry.</video:description>
+    <video:content_loc>https://www.youtube.com/watch?v=dQw4w9WgXcQ</video:content_loc>
+    <video:duration>900</video:duration>
+    <video:publication_date>2024-01-13T20:30:00+00:00</video:publication_date>
+    <video:tag>Fashion</video:tag>
+    <video:tag>Culture</video:tag>
+    <video:tag>Traditional</video:tag>
+    <video:tag>Modern</video:tag>
+    <video:category>Fashion</video:category>
+    <video:family_friendly>yes</video:family_friendly>
+    <video:live>no</video:live>
+  </video:video>
+  
+  <video:video>
+    <video:thumbnail_loc>https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop</video:thumbnail_loc>
+    <video:title>Sustainable Beauty: The Future of Pageantry</video:title>
+    <video:description>Exploring eco-friendly practices in modern beauty pageants, from sustainable fashion choices to environmental awareness campaigns.</video:description>
+    <video:content_loc>https://www.youtube.com/watch?v=dQw4w9WgXcQ</video:content_loc>
+    <video:duration>1800</video:duration>
+    <video:publication_date>2024-01-12T18:15:00+00:00</video:publication_date>
+    <video:tag>Sustainable</video:tag>
+    <video:tag>Beauty</video:tag>
+    <video:tag>Environment</video:tag>
+    <video:tag>Future</video:tag>
+    <video:category>Documentary</video:category>
+    <video:family_friendly>yes</video:family_friendly>
+    <video:live>no</video:live>
+  </video:video>
+
+</url>
+
+</urlset>
